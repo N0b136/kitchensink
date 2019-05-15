@@ -22,3 +22,17 @@ checkAge("Charles", 21);
 checkAge('Abby', 27);
 checkAge('James', 18);
 checkAge('John', 17);
+
+let favVeg = ['Broccoli', 'corn', 'spinach', 'greenbeans'];
+
+for (let i of favVeg) {
+    console.log(i);
+};
+
+
+let testPool = [{name: 'Xonis', age: 43}, {name:'Valhaia', age: 22}, {name:'Kephius', age:19}, {name:'Oskar', age: 36}, {name:'Levi', age:2}];
+
+
+for (let person of testPool) {
+    checkAge(person.name, person.age)
+};
