@@ -37,3 +37,14 @@ for (let person of testPool) {
     checkAge(person.name, person.age)
 };
 
+function getLength(anyWord) {
+    return anyWord.length;  
+};
+
+let result = getLength('Hello World');
+
+if (result%2 == 0 ) {
+    console.log('The world is nice and even!')
+} else {
+ console.log('The world is an odd place!')
+};
