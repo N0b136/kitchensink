@@ -36,3 +36,4 @@ let testPool = [{name: 'Xonis', age: 43}, {name:'Valhaia', age: 22}, {name:'Keph
 for (let person of testPool) {
     checkAge(person.name, person.age)
 };
+
